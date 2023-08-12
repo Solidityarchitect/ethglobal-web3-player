@@ -7,10 +7,10 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     const { deployer } = await getNamedAccounts()
 
     nftContract = await deployments.get("NFTContract")
-    const daiContractAddress = "0x68194a729C2450ad26072b3D33ADaCbcef39D574"
+    const usdcContractAddress = "0x07865c6E87B9F70255377e024ace6630C1Eaa37F"
 
     log("----------------------------------------------------")
-    const arguments = [nftContract.address, daiContractAddress]
+    const arguments = [nftContract.address, usdcContractAddress]
     const stakingcontract = await deploy("StakingContract", {
         from: deployer,
         args: arguments,

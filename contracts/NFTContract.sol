@@ -15,7 +15,7 @@ contract NFTContract is ERC721, Ownable {
     uint256 public tokenId;
 
     constructor( ) ERC721("Web3Vedio", "WV") {
-        tokenId = 0;
+        tokenId = 1;
     }
 
     function mintNFT(uint256 _price) external onlyOwner {        

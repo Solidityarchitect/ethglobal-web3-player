@@ -30,7 +30,7 @@ module.exports = {
             chainId: 11155111,
             blockConfirmations: 6,
         },
-        Goril: {
+        Goeril: {
             url: GORIL_RPC_URL,
             accounts: [PRIVATE_KEY],
             chainId: 5,
