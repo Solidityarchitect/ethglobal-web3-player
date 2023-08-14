@@ -42,6 +42,12 @@ module.exports = {
             chainId: 1,
             blockConfirmations: 6,
         },
+        Base: {
+            url: "https://goerli.base.org",
+            accounts: [PRIVATE_KEY],
+            chainId: 84531,
+            blockConfirmations: 6,
+        },
     },
     solidity: {
         compilers: [

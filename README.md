@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+![Alt text](image-1.png)
+![Alt text](image.png)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+📝 NFT Contract: 0x1AB2a434F093C669424354e884E92Ea10690C6a4
+Etherscan: https://goerli.etherscan.io/address/0x1AB2a434F093C669424354e884E92Ea10690C6a4
 
-Try running some of the following tasks:
+📺 Staking Contract: 0xB4e0156F3621dC80e72E78D0388aBce8aa2187c1
+Etherscan: https://goerli.etherscan.io/address/0xB4e0156F3621dC80e72E78D0388aBce8aa2187c1
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+ETHGlobal SUPERHACK WEB3PLAYER
